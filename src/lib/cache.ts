@@ -1,7 +1,7 @@
 import { unstable_cache as nextCache } from "next/cache"
 import { cache as reactCache} from "react"
 
-type Callback = (...args: string[]) => Promise<StripeIssuingCardCopyButtonElementOptions>
+type Callback = (...args: string[]) => Promise<string>
 
 export function cache<T extends Callback>(
     cb: T, 
