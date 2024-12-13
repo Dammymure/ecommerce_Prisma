@@ -17,32 +17,32 @@ type OrderHistoryEmailProps = {
     }[]
 }
 
-OrderHistoryEmail.PreviewProps = {
-    orders: [
-        {
-            id: crypto.randomUUID(),
-            createdAt: new Date(),
-            pricePaidInCents: 10000,
-            downloadVerificationId: crypto.randomUUID(),
-            product: { 
-                name: "Product name", 
-                description: "Some description",
-                imagePath: "/products/da236c72-41d4-43e1-832a-bb8b4d1be523-pexels-chanaka-318741-906494 (1).jpg"},
+// OrderHistoryEmail.PreviewProps = {
+//     orders: [
+//         {
+//             id: crypto.randomUUID(),
+//             createdAt: new Date(),
+//             pricePaidInCents: 10000,
+//             downloadVerificationId: crypto.randomUUID(),
+//             product: { 
+//                 name: "Product name", 
+//                 description: "Some description",
+//                 imagePath: "/products/da236c72-41d4-43e1-832a-bb8b4d1be523-pexels-chanaka-318741-906494 (1).jpg"},
 
-        },
-        {
-            id: crypto.randomUUID(),
-            createdAt: new Date(),
-            pricePaidInCents: 45400,
-            downloadVerificationId: crypto.randomUUID(),
-            product: { 
-                name: "Product name 2", 
-                description: "Some other description",
-                imagePath: "/products/da236c72-41d4-43e1-832a-bb8b4d1be523-pexels-chanaka-318741-906494 (1).jpg"},
+//         },
+//         {
+//             id: crypto.randomUUID(),
+//             createdAt: new Date(),
+//             pricePaidInCents: 45400,
+//             downloadVerificationId: crypto.randomUUID(),
+//             product: { 
+//                 name: "Product name 2", 
+//                 description: "Some other description",
+//                 imagePath: "/products/da236c72-41d4-43e1-832a-bb8b4d1be523-pexels-chanaka-318741-906494 (1).jpg"},
 
-        }
-    ]
-} satisfies OrderHistoryEmailProps
+//         }
+//     ]
+// } satisfies OrderHistoryEmailProps
 
 export default function OrderHistoryEmail({ 
     orders,
