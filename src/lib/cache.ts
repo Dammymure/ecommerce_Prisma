@@ -1,6 +1,7 @@
 import { unstable_cache as nextCache } from "next/cache"
 import { cache as reactCache} from "react"
 
+// eslint-disable-next-line
 type Callback = (...args: any[]) => Promise<any>
 
 export function cache<T extends Callback>(
@@ -10,7 +11,3 @@ export function cache<T extends Callback>(
 ){
     return nextCache(reactCache(cb), keyParts, options)
 }
-
-
-
-
