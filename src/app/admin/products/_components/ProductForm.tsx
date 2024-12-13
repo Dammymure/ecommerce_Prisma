@@ -7,7 +7,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { formatCurrency } from "@/lib/formatters"
 import { useActionState, useState } from "react"
 import { addProduct, updateProduct } from "../../_actions/products"
-import { useFormState, useFormStatus } from "react-dom"
+import { useFormStatus } from "react-dom"
 import { Product } from "@prisma/client"
 import Image from "next/image"
 

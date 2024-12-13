@@ -1,6 +1,5 @@
 import { Body, Container, Head, Heading, Html, Preview, Tailwind } from "@react-email/components";
 import { OrderInformation } from "./components/OrderInformation";
-import db from "@/db/db";
 
 type PurchaseReceiptEmailProps = {
     product: {

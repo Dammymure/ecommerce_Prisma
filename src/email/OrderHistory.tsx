@@ -1,6 +1,5 @@
 import { Body, Container, Head, Heading, Hr, Html, Preview, Tailwind } from "@react-email/components";
 import { OrderInformation } from "./components/OrderInformation";
-import { number, string } from "zod";
 import React from "react";
 
 type OrderHistoryEmailProps = {
