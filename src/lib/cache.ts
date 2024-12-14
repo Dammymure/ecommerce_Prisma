@@ -11,3 +11,4 @@ export function cache<T extends Callback>(
 ){
     return nextCache(reactCache(cb), keyParts, options)
 }
+
